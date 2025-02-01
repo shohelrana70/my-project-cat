@@ -1,0 +1,28 @@
+
+.hamburger {  
+    color: black;  
+    font-size: 30px;  
+    cursor: pointer;  
+}  
+
+.nav-links {  
+    display: none; /* Hidden by default */ 
+    background-color: #FFF9F4;  
+}  
+
+
+@media (min-width: 768px) {  
+    .hamburger {  
+        display: none; /* Hide hamburger on larger screens */  
+    }  
+    .nav-links {  
+        display: flex; /* Show links on larger screens */  
+        position: static; /* Normal flow */  
+        flex-direction: row; /* Horizontal layout */  
+    }  
+}
+
+
+
+
+
