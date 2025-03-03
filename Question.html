@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body style="padding-left: 140px; padding-right: 140px; margin-top: 20px;">
+    <header style="display: flex; justify-content: space-between; align-items: center; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; padding: 15px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <img src="assets/logo.png" alt="DevBoard Logo" style="height: 40px; vertical-align: middle;">
+            <span style="font-weight: normal; font-size: 25px;">Dev<span style="font-weight: bold;">Board</span></span>
+        </div>
+    <button onclick="goToIndex()" style="color: white; background-color: rgb(61, 61, 170); border-radius: 8px; padding: 8px 15px; font-size: 16px;">Back to Desk</button>
+
+<script>  
+    function goToIndex() {  
+        window.location.href = 'index.html';  
+    }  
+</script> 
+    </div>
+    </header>
+
+    <section style="margin-bottom: 10px;"></section>
+    <div style="text-align: center; margin-top: 30px; font-weight: bold;">Blogs</div>
+
+          <!-- Blogs Section -->
+          <div class="space-y-6 mb-6">
+            <!-- Blog 1 -->
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Question 1: What are the different ways to select an element in the DOM?</h2>
+                <p class="text-gray-700">
+                 Answer : These methods provide a flexible way to access and manipulate elements in the DOM based on various criteria.
+                </p>
+            </div>
+
+            <!-- Blog 2 -->
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Question 2: What is the difference between innerHTML, innerText, and textContent?</h2>
+                <p class="text-gray-700">
+                    Answer :  Use innerHTML for HTML content, innerText for visible text, and textContent for all text regardless of visibility.
+                </p>
+            </div>
+
+            <!-- Blog 3 -->
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Question 3: What is event delegation in the DOM?</h2>
+                <p class="text-gray-700">
+                    Answer :  Event delegation is a technique in the DOM where a single event listener is added to a parent element instead of multiple listeners on individual child elements
+                </p>
+            </div>
+
+            <!-- Blog 4 -->
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-4">Question 4: What is event bubbling in the DOM?</h2>
+                <p class="text-gray-700">
+                    Answer :  Event bubbling is a mechanism in the DOM where an event propagates upward from the target element to its ancestors in the hierarchy. 
+                </p>
+            </div>
+                        <!-- Blog 5 -->
+                        <div class="bg-white shadow-md rounded-lg p-6">
+                            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Question-5: How do you create, add, and remove elements using JavaScript?</h2>
+                            <p class="text-gray-700">
+                                Answer : document.createElement(tagName). To add an element to the DOM, use methods like parentElement.appendChild(newElement) or parentElement.insertBefore(newElement, referenceElement). To remove an element, use element.parentNode.removeChild(element) or element.remove().</span>
+                            </p>
+                        </div>
+        </div>
+    </div>
+</body>
+</html>
